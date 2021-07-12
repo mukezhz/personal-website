@@ -101,7 +101,7 @@ function getRepos() {
       const a = document.createElement("a");
       li.appendChild(document.createTextNode(repo.name));
       a.appendChild(li);
-      a.href = repo.url;
+      a.href = repo.html_url;
       a.target = "blank";
       ul.appendChild(a);
     });
