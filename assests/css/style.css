@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.font {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.bg {
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
+  background-size: cover;
+  background-repeat: space;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.m-1 {
+  margin: 1.1em;
+}
+
+.container-col {
+  flex-direction: column;
+}
+
+#profile-img {
+  border-radius: 50%;
+}
+
+#contact i {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+#contact a {
+  margin: 0 3.5px;
+}
+
+#contact a:visited {
+  color: honeydew;
+}
+
+#repo li {
+  list-style-type: none;
+}
+
+.nav-home a:visited {
+  color: #fff;
+}
+
+.nav-home a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#loading {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

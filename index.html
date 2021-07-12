@@ -4,10 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mukezhz</title>
+    <link rel="shortcut icon" href="assests/icon/me.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="assests/css/style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script defer src="assests/js/main.js"></script>
+    <title>Mukezhz's Portfolio</title>
   </head>
-
-  <body>
-    <h1>Bye Bye World</h1>
+  <body class="bg font">
+    <div id="loading">Loading...</div>
+    <div id="wrap" hidden>
+      <header class="container" id="header">
+        <nav>
+          <div class="nav-home">
+            <a href="#"><h2>Mukezhz</h2> </a>
+          </div>
+        </nav>
+      </header>
+      <main class="container container-col" id="main">
+        <div class="image">
+          <img id="profile-img" alt="Profile Picture" />
+        </div>
+        <h1 class="fname m-1" id="fname"></h1>
+        <div class="m-1" id="about-me"></div>
+        <div class="m-1" id="contact">
+        </div>
+      </main>
+      <section class="container container-col" id="section">
+        <h2>My Projects</h2>
+        <ul class="repo" id="repo"></ul>
+      </section>
+      <footer class="container" id="footer">
+        THis is footer
+      </footer>
+    </div>
   </body>
 </html>
