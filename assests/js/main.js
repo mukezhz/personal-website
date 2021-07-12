@@ -102,7 +102,7 @@ function getRepos() {
       li.appendChild(document.createTextNode(repo.name));
       a.appendChild(li);
       a.href = repo.html_url;
-      a.target = "blank";
+      a.target = "_blank"
       ul.appendChild(a);
     });
   });
@@ -137,6 +137,7 @@ function createIcon(iconname) {
 function createUrl(url) {
   const a = document.createElement("a");
   a.href = `https://${url}/${username}`;
+  a.target="_blank"
   return a;
 }
 
