@@ -1,10 +1,7 @@
 import Link from "next/link";
 import siteMetadata from "../data/siteMetadata";
 
-const MAX_DISPLAY = 5;
-const postDateTemplate = { year: "numeric", month: "long", day: "numeric" };
-
-export default function Home({ posts }) {
+const IndexPage = () => {
   return (
     <>
       <div>
@@ -25,9 +22,6 @@ export default function Home({ posts }) {
               {" about them. Have a good read!"}
             </h2>
           </div>
-          {/* <div className="flex items-center justify-center mx-2 my-12 w-96">
-            <BlogNewsletterForm title="Stay updated, receive the latest post straight to your mailbox" />
-          </div> */}
         </div>
         <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
           Latest
@@ -36,4 +30,6 @@ export default function Home({ posts }) {
       </div>
     </>
   );
-}
+};
+
+export default IndexPage;

@@ -9,7 +9,7 @@ const Custom404 = () => {
             404
           </div>
           <p className="text-2xl md:text-3xl font-light leading-normal text-gray-900 dark:text-gray-300 mb-3">
-            Sorry we couldn't find this page.{" "}
+            {`Sorry we couldn't find this page.`}
           </p>
           <p className="mb-8 text-gray-900 dark:text-gray-100">
             But dont worry, you can find plenty of other things on our homepage.
